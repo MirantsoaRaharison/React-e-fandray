@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-container{
+    display: flex;
+    height: 30rem;
+    width: 55rem;
+    margin:60px;
+    box-shadow: 0 2px 12px 5px rgba(116, 111, 111, 0.699);
+    
+
+}
+
+
+.box-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+} 
+
+.box1{
+    display: grid;
+    height: 100%;
+    width: 25%;
+    background-color: #d291fa;
+}
+.box2{
+    display: grid;
+    height: 100%;
+    width: 50%;
+  
+}
+.box3{
+    display: grid;
+    background-color: #d291fa;
+    height: 100%;
+    width: 25%;
+   
+}
+
+.box:nth-child(even){
+    width: 45%;
+    height: 30%;
+    border-radius: 25px;
+    margin-left: 14rem;
+    background-color: white;
+    box-shadow: 0 2px 12px 5px rgba(204, 178, 178, 0.514);
+    margin-top: 45px;
+
+}
+.box:nth-child(odd){
+    width: 45%;
+    height: 30%;
+    border-radius: 25px;
+    margin-left:1rem;
+    background-color: white;
+    box-shadow: 0 2px 12px 5px rgba(204, 178, 178, 0.514);
+    margin-top: 45px;
+}
+.box > p{
+    font-size: 14px;
+}
+input{
+    width: 90%;
+    height: 45%;
+    box-shadow: 0 2px 12px 5px rgba(204, 178, 178, 0.514);
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 20px;
+   
+}
+/* --------------------box1---------------------- */
+.texte{
+    width: 90%;
+    height: 30%;
+    border-radius: 25px;
+    margin-left:1rem;
+    background-color: white;
+    box-shadow: 0 2px 12px 5px rgba(204, 178, 178, 0.514);
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1{
+
+    width: 10em;
+    height: 10em;
+    margin-left:12%;
+    background-image: url('./me.PNG');
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+
+.image2{
+    width: 10em;
+    height: 10em;
+    margin-left:12%;
+    background-image: url('./image_prof.png');
+    border-radius: 50%;
+}
+
+
+.name{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.texte > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
